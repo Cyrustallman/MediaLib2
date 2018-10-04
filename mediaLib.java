@@ -19,6 +19,7 @@ public class mediaLib
         System.out.println(song1.getPrice());
         
         Song song2 = new Song("ee",2.1,1);
+        Song song3 = new Song("my frienbds",0.95,100);
         
         Movie movie1 = new Movie();
         movie1.setName("the");
