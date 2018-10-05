@@ -12,14 +12,11 @@ public class mediaLib
         //media
         System.out.println("Welcome to your media library ajh");
         
-        //song origial
-        Song song1 = new Song();
-        song1.setTitle("bus");  
+        //song 1
+        Song song1 = new Song("dirst",1.2,2);
         System.out.println(song1.getTitle());
-        song1.setRating(1888);
-        System.out.println(song1.getRating());
-        song1.setPrice(2.0);
         System.out.println(song1.getPrice());
+        System.out.println(song1.getRating());
         
         //song 2
         Song song2 = new Song("ee",2.1,1);

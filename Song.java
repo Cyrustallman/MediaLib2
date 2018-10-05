@@ -12,17 +12,21 @@ public class Song
     private String title;
     private Double price;
     private Boolean favorite;
+    private double totalCost;
+    private int numSongs;
     public Song()
     {
         // initialise instance variables
         rating = 0;
         title = "";
         price = 0.0;
+        
     }
     public Song(String title, double price, int rating) {
         this.title = title;
         this.price = price;
         this.rating = rating;
+        numSongs = numSongs + 1;
     }
     // title
     public void setTitle(String title2) {
