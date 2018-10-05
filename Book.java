@@ -16,12 +16,14 @@ public class Book
         Stars = 0;
         Title = "";
     }
+    //title
     public void setTitle(String title2) {
         Title = title2;
     }
     public String getTitle() {
         return Title;
     }
+    //stars
     public void setStars(int Stars2) {
         Stars = Stars2;
     }

@@ -16,12 +16,14 @@ public class Movie
         RottenTomatos = 0;
         name = "";
     }
+    //name 
     public void setName(String name2) {
         name = name2;
     }
     public String getName() {
         return name;
     }
+    //rotten tomaots
     public void setRottenTomatos(int RottenTomatos2) {
         RottenTomatos = RottenTomatos2;
     }
