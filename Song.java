@@ -14,6 +14,7 @@ public class Song
     private Boolean favorite;
     private double totalCost;
     private int numSongs;
+    private int totalRatings;
     public Song()
     {
         // initialise instance variables
@@ -27,6 +28,9 @@ public class Song
         this.price = price;
         this.rating = rating;
         numSongs = numSongs + 1;
+    }
+    public int getNumSongs() {
+        return numSongs;
     }
     // title
     public void setTitle(String title2) {

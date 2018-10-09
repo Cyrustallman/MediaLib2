@@ -7,13 +7,15 @@
  */
 public class mediaLib
 {
+    
     public static void Media()
     {
+       
         //media
         System.out.println("Welcome to your media library ajh");
         
         //song 1
-        Song song1 = new Song("dirst",1.2,2);
+        Song song1 = new Song("Darude sandstorm",2.0,10);
         System.out.println(song1.getTitle());
         System.out.println(song1.getPrice());
         System.out.println(song1.getRating());
@@ -29,6 +31,12 @@ public class mediaLib
         System.out.println(song3.getTitle());
         System.out.println(song3.getPrice());
         System.out.println(song3.getRating());
+        
+        //song avgs
+        System.out.println("song avg");
+        System.out.println(song3.getNumSongs());
+        System.out.println(song2.getNumSongs());
+        System.out.println(song1.getNumSongs());
         
         //movie original
         Movie movie1 = new Movie();
