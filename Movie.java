@@ -10,11 +10,20 @@ public class Movie
     // instance variables - replace the example below with your own
     private int RottenTomatos;
     private String name;
+    private int duration;
     public Movie()
     {
         // initialise instance variables
         RottenTomatos = 0;
         name = "";
+        duration = 0;
+    }
+    //duration
+    public void setDuration(int duration2) {
+         duration = duration2;
+    }
+    public int getDuration() {
+        return duration;
     }
     //name 
     public void setName(String name2) {
