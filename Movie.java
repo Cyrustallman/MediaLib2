@@ -11,6 +11,12 @@ public class Movie
     private int RottenTomatos;
     private String name;
     private int duration;
+    private int mins;
+    private int hours;
+    private String d;
+    private String e;
+    private int m;
+    private int h;
     public Movie()
     {
         // initialise instance variables
@@ -22,8 +28,12 @@ public class Movie
     public void setDuration(int duration2) {
          duration = duration2;
     }
-    public int getDuration() {
-        return duration;
+    public String getDuration() {
+        h = duration / 60;
+        m = duration % 60;
+        d = Integer.toString(h);
+        e = Integer.toString(m);
+        return d + ":" + e;
     }
     //name 
     public void setName(String name2) {

@@ -58,7 +58,7 @@ public class mediaLib
         System.out.println(movie1.getName());
         movie1.setRottenTomatos(17);
         System.out.println(movie1.getRottenTomatos());
-        movie1.setDuration(1);
+        movie1.setDuration(250);
         System.out.println(movie1.getDuration());
         System.out.println("");
         
