@@ -70,7 +70,7 @@ public class mediaLib
         System.out.println(book1.getStars());
         
         //Retrieving Song String
-        MediaFile.writeString(song2.getTitle());
+        MediaFile.writeString(song2.getTitle() + "|" + song2.getRating());
         MediaFile.saveAndClose();
     }
 }
