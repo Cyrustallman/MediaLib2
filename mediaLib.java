@@ -68,5 +68,9 @@ public class mediaLib
         System.out.println(book1.getTitle());
         book1.setStars(34);
         System.out.println(book1.getStars());
+        
+        //Retrieving Song String
+        MediaFile.writeString(song2.getTitle());
+        MediaFile.saveAndClose();
     }
 }
