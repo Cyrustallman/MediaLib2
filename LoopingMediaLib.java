@@ -11,13 +11,5 @@ public class LoopingMediaLib
     {
         System.out.println(MediaFile.readString());
         
-        
-        
-    }
-
-    
-    
-    
-    
-    
+    }    
 }
