@@ -9,10 +9,11 @@ public class LoopingMediaLib
 {
     public static void main()
     {
-        int i = -3;
-        while (i < 0)
+        String songInfo = MediaFile.readString();
+        while (songInfo != null) 
         {
-            System.out.println(MediaFile.readString());
+            System.out.println(songInfo);
+            songInfo = MediaFile.readString();
         }
     }    
 }
